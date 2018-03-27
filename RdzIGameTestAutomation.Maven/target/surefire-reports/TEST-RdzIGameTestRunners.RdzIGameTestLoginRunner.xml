@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="RdzIGameTestRunners.RdzIGameTestLoginRunner" time="71.68" tests="27" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Projects\RdzIGameTestAutomation.Maven\target\test-classes;D:\Projects\RdzIGameTestAutomation.Maven\target\classes;C:\Users\ratkodz\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\ratkodz\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\ratkodz\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\ratkodz\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\ratkodz\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\ratkodz\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\ratkodz\.m2\repository\org\seleniumhq\selenium\selenium-java\3.11.0\selenium-java-3.11.0.jar;C:\Users\ratkodz\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Users\ratkodz\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Users\ratkodz\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.11.0\selenium-edge-driver-3.11.0.jar;C:\Users\ratkodz\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.11.0\selenium-firefox-driver-3.11.0.jar;C:\Users\ratkodz\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.11.0\selenium-ie-driver-3.11.0.jar;C:\Users\ratkodz\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.11.0\selenium-opera-driver-3.11.0.jar;C:\Users\ratkodz\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Users\ratkodz\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.11.0\selenium-safari-driver-3.11.0.jar;C:\Users\ratkodz\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Users\ratkodz\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\ratkodz\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ratkodz\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\ratkodz\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ratkodz\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\ratkodz\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\ratkodz\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ratkodz\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\ratkodz\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\ratkodz\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ratkodz\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ratkodz\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\ratkodz\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\ratkodz\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\ratkodz\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\ratkodz\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\ratkodz\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-10\bin"/>
+    <property name="sun.java.command" value="C:\Users\ratkodz\AppData\Local\Temp\surefire13689258876685134250\surefirebooter15841926448361729009.jar C:\Users\ratkodz\AppData\Local\Temp\surefire13689258876685134250 2018-03-27T22-48-04_217-jvmRun1 surefire2219173572219048223tmp surefire_04719283122555616205tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Projects\RdzIGameTestAutomation.Maven\target\test-classes;D:\Projects\RdzIGameTestAutomation.Maven\target\classes;C:\Users\ratkodz\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\ratkodz\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\ratkodz\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\ratkodz\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\ratkodz\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\ratkodz\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\ratkodz\.m2\repository\org\seleniumhq\selenium\selenium-java\3.11.0\selenium-java-3.11.0.jar;C:\Users\ratkodz\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Users\ratkodz\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Users\ratkodz\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.11.0\selenium-edge-driver-3.11.0.jar;C:\Users\ratkodz\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.11.0\selenium-firefox-driver-3.11.0.jar;C:\Users\ratkodz\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.11.0\selenium-ie-driver-3.11.0.jar;C:\Users\ratkodz\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.11.0\selenium-opera-driver-3.11.0.jar;C:\Users\ratkodz\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Users\ratkodz\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.11.0\selenium-safari-driver-3.11.0.jar;C:\Users\ratkodz\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Users\ratkodz\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\ratkodz\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ratkodz\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\ratkodz\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ratkodz\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\ratkodz\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\ratkodz\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ratkodz\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\ratkodz\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\ratkodz\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ratkodz\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ratkodz\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\ratkodz\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\ratkodz\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\ratkodz\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\ratkodz\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\ratkodz\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ratkodz"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-03-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-10"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Projects\RdzIGameTestAutomation.Maven"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ratkodz\AppData\Local\Temp\surefire13689258876685134250\surefirebooter15841926448361729009.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="10+46"/>
+    <property name="user.name" value="ratkodz"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.3"/>
+    <property name="localRepository" value="C:\Users\ratkodz\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ratkodz\AppData\Local\Temp\"/>
+    <property name="java.version" value="10"/>
+    <property name="user.dir" value="D:\Projects\RdzIGameTestAutomation.Maven"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Skype\Phone\;C:\Users\ratkodz\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="10+46"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="54.0"/>
+  </properties>
+  <testcase name="Given I open IGame page in &quot;firefox&quot;" classname="Scenario: Negative Test Case - Emtpy Password" time="0.003"/>
+  <testcase name="Given I open Login form" classname="Scenario: Negative Test Case - Emtpy Password" time="0"/>
+  <testcase name="When I enter username as &quot;test&quot;" classname="Scenario: Negative Test Case - Emtpy Password" time="0"/>
+  <testcase name="Then Log In button should remain disabled" classname="Scenario: Negative Test Case - Emtpy Password" time="0.004">
+    <failure message="Login button is not disabled!" type="java.lang.AssertionError">java.lang.AssertionError: Login button is not disabled!
+</failure>
+    <system-out><![CDATA[<<<<< Verifying that Login Button is disabled >>>>>
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: Negative Test Case - Emtpy Password" classname="Scenario: Negative Test Case - Emtpy Password" time="0.004">
+    <failure message="Login button is not disabled!" type="java.lang.AssertionError">java.lang.AssertionError: Login button is not disabled!
+</failure>
+  </testcase>
+  <testcase name="Given I open IGame page in &quot;firefox&quot;" classname="Scenario: Negative Test Case - Wrong Credentials" time="0.001"/>
+  <testcase name="Given I open Login form" classname="Scenario: Negative Test Case - Wrong Credentials" time="0"/>
+  <testcase name="When I enter username as &quot;test&quot;" classname="Scenario: Negative Test Case - Wrong Credentials" time="0"/>
+  <testcase name="And I enter password as &quot;test&quot;" classname="Scenario: Negative Test Case - Wrong Credentials" time="0"/>
+  <testcase name="And I press login button" classname="Scenario: Negative Test Case - Wrong Credentials" time="0"/>
+  <testcase name="Then Validation message should appear" classname="Scenario: Negative Test Case - Wrong Credentials" time="0"/>
+  <testcase name="And Mesage text should be &quot;The username and/or password is incorrect&quot;" classname="Scenario: Negative Test Case - Wrong Credentials" time="0"/>
+  <testcase name="Scenario: Negative Test Case - Wrong Credentials" classname="Scenario: Negative Test Case - Wrong Credentials" time="1.812"/>
+  <testcase name="Given I open IGame page in &quot;firefox&quot;" classname="| ratkodz@mailinator.com | KjnOM816kE8rn6e |" time="0"/>
+  <testcase name="Given I open Login form" classname="| ratkodz@mailinator.com | KjnOM816kE8rn6e |" time="0"/>
+  <testcase name="When I enter username as &quot;ratkodz@mailinator.com&quot;" classname="| ratkodz@mailinator.com | KjnOM816kE8rn6e |" time="0"/>
+  <testcase name="And I enter password as &quot;KjnOM816kE8rn6e&quot;" classname="| ratkodz@mailinator.com | KjnOM816kE8rn6e |" time="0"/>
+  <testcase name="And I press login button" classname="| ratkodz@mailinator.com | KjnOM816kE8rn6e |" time="0"/>
+  <testcase name="Then User should be loged in" classname="| ratkodz@mailinator.com | KjnOM816kE8rn6e |" time="0"/>
+  <testcase name="| ratkodz@mailinator.com | KjnOM816kE8rn6e |" classname="| ratkodz@mailinator.com | KjnOM816kE8rn6e |" time="4.711"/>
+  <testcase name="Given I open IGame page in &quot;firefox&quot;" classname="| ratko.dz@mailinator.com | OncSDalAY118p7e |" time="0.002"/>
+  <testcase name="Given I open Login form" classname="| ratko.dz@mailinator.com | OncSDalAY118p7e |" time="0"/>
+  <testcase name="When I enter username as &quot;ratko.dz@mailinator.com&quot;" classname="| ratko.dz@mailinator.com | OncSDalAY118p7e |" time="0"/>
+  <testcase name="And I enter password as &quot;OncSDalAY118p7e&quot;" classname="| ratko.dz@mailinator.com | OncSDalAY118p7e |" time="0"/>
+  <testcase name="And I press login button" classname="| ratko.dz@mailinator.com | OncSDalAY118p7e |" time="0"/>
+  <testcase name="Then User should be loged in" classname="| ratko.dz@mailinator.com | OncSDalAY118p7e |" time="0"/>
+  <testcase name="| ratko.dz@mailinator.com | OncSDalAY118p7e |" classname="| ratko.dz@mailinator.com | OncSDalAY118p7e |" time="2.651"/>
+</testsuite>
