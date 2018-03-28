@@ -1,7 +1,7 @@
 Feature: IGame Login Smoke Test
 
   Background: #Currently test feature suport only Chrome and Firefox. Supported values are: chrome, firefox
-		Given I open IGame page in "firefox"
+		Given I open IGame page in "chrome"
 
 	Scenario: Negative Test Case - Emtpy Password
   	Given I open Login form  
@@ -17,7 +17,7 @@ Feature: IGame Login Smoke Test
   	And Mesage text should be "The username and/or password is incorrect"
   
   @DoLogOut	
-  Scenario Outline:
+  Scenario Outline: Pozitive Test Case - User logs in
   	Given I open Login form 
   	When I enter username as "<Email>"
   	And I enter password as "<Password>"
